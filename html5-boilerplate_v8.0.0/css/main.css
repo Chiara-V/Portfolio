@@ -136,8 +136,31 @@ textarea {
    }
 
    h3 {
-     font-family:
+     font-family: 'Roboto', sans-serif;
+     font-size: 1.333rem;
+     font-weight: lighter;
+     line-height: 1.9444rem;
    }
+
+   /*---------lists---------*/
+   ul {
+     font-size: 1rem;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     text-transform: uppercase;
+   }
+
+   li {
+     margin-right: 33px;
+   }
+
+   /*---------links---------*/
+   a {
+     color: #000000;
+     text-decoration: none;
+   }
+
 
 /* ==========================================================================
    Helper classes
