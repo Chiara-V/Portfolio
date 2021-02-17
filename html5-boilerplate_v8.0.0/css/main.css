@@ -86,20 +86,58 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* General Styles*/
+   /* General Styles*/
 
-html {
-  font-size: 18px;
-  line-height: 28px;
-}
+   html {
+     font-size: 18px;
+   }
 
-/*BODY*/
-body {
-  color: #000000;
-  font-family: 'Spectral', serif;
-  font-size: 1em;
-}
+   /*BODY*/
+   body {
+     color: #000000;
+     font-family: 'Spectral', serif;
+     font-size: 1em;
+     line-height: 28px;
+   }
 
+   /*---------headlines---------*/
+   h1 {
+     font-family: 'Roboto', sans-serif;
+     font-size: 8.333rem;
+     font-weight: normal;
+     line-height: 125px;
+   }
+
+   h1 span {
+     font-family: 'Roboto', sans-serif;
+     font-size:  8.333rem;
+     font-weight: normal;
+     line-height: 125px;
+   }
+
+  /* #title span :hover, #title span :active {
+     font-size: 6rem;
+   }*
+  /** #prim :hover .head1 {display:none}
+   #prim span:hover:before {content:"Chiara"}**/
+
+   h2 {
+     font-family: 'Spectral', serif;
+     font-style: medium;
+     font-size: 2.555rem;
+     font-weight: normal;
+     line-height: 2.7777rem;
+   }
+
+   span {
+     font-family: 'Satisfy', cursive;
+     font-size: 2.555rem;
+     font-weight: normal;
+   }
+
+   h3 {
+     font-family:
+   }
 
 /* ==========================================================================
    Helper classes
