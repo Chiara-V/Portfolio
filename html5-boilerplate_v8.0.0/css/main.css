@@ -89,28 +89,29 @@ textarea {
    /* General Styles*/
 
    html {
-     font-size: 18px;
+     font-size: 16px;
    }
 
    /*BODY*/
    body {
      color: #000000;
      font-family: 'Spectral', serif;
-     font-size: 1em;
-     line-height: 28px;
+     font-size: 1.125em;
+     line-height: 20px;
    }
 
    /*---------headlines---------*/
    h1 {
      font-family: 'Roboto', sans-serif;
-     font-size: 8.333rem;
+     font-size: 8.375rem;
      font-weight: normal;
      line-height: 125px;
+     width: 85%;
    }
 
    h1 span {
      font-family: 'Roboto', sans-serif;
-     font-size:  8.333rem;
+     font-size:  8.375rem;
      font-weight: normal;
      line-height: 125px;
    }
@@ -124,20 +125,20 @@ textarea {
    h2 {
      font-family: 'Spectral', serif;
      font-style: medium;
-     font-size: 2.555rem;
+     font-size: 2.875rem;
      font-weight: normal;
      line-height: 2.7777rem;
    }
 
    span {
      font-family: 'Satisfy', cursive;
-     font-size: 2.555rem;
+     font-size: 2.875rem;
      font-weight: normal;
    }
 
    h3 {
      font-family: 'Roboto', sans-serif;
-     font-size: 1.333rem;
+     font-size: 1.5rem;
      font-weight: lighter;
      line-height: 1.9444rem;
    }
@@ -155,11 +156,273 @@ textarea {
      margin-right: 33px;
    }
 
+   .dot {
+     height: 5px;
+     width: 5px;
+     background-color: #d90dcb;
+     border-radius: 50%;
+     display: inline-block;
+   }
+
    /*---------links---------*/
    a {
      color: #000000;
      text-decoration: none;
    }
+
+   /*---------images---------*/
+   img {
+     padding-left: 10px;
+     width: 100%;
+   }
+
+   /*--Paragraph--*/
+   p {
+     margin:0;
+   }
+
+   /*------header, main and footer-------*/
+   header,
+   main,
+   footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   /*****HEADER********/
+   header .content-wrapper {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-flow: row wrap;
+     width: 100%;
+   }
+
+/*---logo and nav--*/
+   #logo{
+     align-self: flex-start;
+     padding-top: 5px;
+     width: 10%;
+   }
+
+   .half-width {
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     flex-flow: row wrap;
+     width: 80%;
+   }
+
+   nav {
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     flex-flow: row wrap;
+     width: 100%;
+   }
+
+   nav ul {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-flow: row wrap;
+     padding-right: 5px;
+   }
+
+   nav ul li {
+     margin: 0;
+     padding: 0 5px;
+   }
+
+   /*---chi vui--*/
+
+   #wrapper {
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     flex-flow: row wrap;
+     width: 100%;
+   }
+
+   .half-wrapper{
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-start;
+     flex-flow: row wrap;
+     width: 100%;
+   }
+
+   #hwr{
+   }
+
+   .third-wrapper #box{
+     width: 80%;
+   }
+
+   #title1{
+     padding-right: 10px;
+   }
+
+   .fourth-wrapper #front {
+     align-self: center;
+     width: 15%;
+   }
+
+   #wrapper2{
+     justify-content: flex-end;
+     width: 100%;
+   }
+
+   .third-wrapper #box1{
+     align-self: flex-end;
+     width: 80%;
+   }
+
+   .fourth-wrapper #des {
+     align-self: center;
+     width: 15%;
+   }
+
+   #title3{
+     padding-left: 10px;
+   }
+
+   #pdes {
+     text-align: center;
+   }
+
+   .fit{
+     font-size: 16px;
+   }
+
+
+/*----- classes and id-----*/
+#box{
+
+}
+
+#title1{
+
+}
+
+#box1{
+
+}
+
+#title3{
+
+}
+
+.button{
+
+}
+
+.button1{
+
+}
+
+  .dot1{
+    height: 15px;
+    width: 15px;
+    background-color: #d90dcb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  #dt {
+    background-color: #bf07f2;
+  }
+
+#img{
+
+}
+
+#works{
+
+}
+
+#drop-down{
+
+}
+
+.dropdown{
+
+}
+
+.dropbtn{
+
+}
+
+.dropdown-content{
+
+}
+
+#design-project{
+
+}
+
+.button2{
+
+}
+
+#illustrations-project{
+
+}
+
+#about{
+
+}
+
+#about-img{
+
+}
+
+#about-work{
+
+}
+
+#contact{
+
+}
+
+#content{
+
+}
+
+.container{
+
+}
+
+#name{
+
+}
+
+#email{
+
+}
+
+#message{
+
+}
+
+#other-contact{
+
+}
+
+#email2{
+
+}
+
+#social{
+
+}
+
+#copyright{
+
+}
+
 
 
 /* ==========================================================================

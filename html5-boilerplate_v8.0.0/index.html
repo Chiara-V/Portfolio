@@ -33,19 +33,23 @@
 <body>
 
   <header>
-    <div class= full-width>
+    <div class= content-wrapper>
 
-      <div class=half-width>
-        <a href = "#home"><img id= logo src="img/logo.png" alt="cat logo"/></a>
+      <div id="logo">
+        <a href = "#home"><img src="img/logo.png" alt="cat logo"/></a>
       </div>
 
       <div class="half-width">
          <nav>
              <ul>
                <li><a href ="#works">WORKS</a></li>
-               <!--dot goes here-->
+
+               <span class="dot"></span>
+
                <li><a href ="#about">ABOUT</a></li>
-               <!--dot goes here-->
+
+               <span class="dot"></span>
+
                <li><a href ="#contact">CONTACT</a></li>
              </ul>
          </nav>
@@ -53,29 +57,37 @@
 
     </div>
 
-    <div class = full width>
+    <div class=content-wrapper id="wrapper">
+      <div class="half-wrapper" id="hwr">
 
-      <div class=third-width id=box>
-        <h1><span id=title1>CHI</span></h1>
-        <!--CSS: #title:hover .head1 {display:none}
-  #title:hover:before {content:"Chiara"}-->
-      </div><!--end of box-->
+        <div class=third-wrapper id=box>
+          <h1><span id=title1>CHI</span></h1>
+          <!--CSS: #title:hover .head1 {display:none}
+          #title:hover:before {content:"Chiara"}-->
+        </div><!--end of box-->
 
-      <div class=fourth-width>
-          <p>front-end developer</p>
-      </div>
+        <div class=fourth-wrapper id=front>
+          <p class="fit">front-end<br> developer</p>
+        </div>
 
-      <div class=fourth-width>
-          <p>web designer & illustrator</p>
-      </div>
+      </div><!--end of half-wrapper-->
 
-      <div class=third-width id=box1>
-        <h1><span id=title3>VUI</span></h1>
-        <!--CSS: #title:hover .head2 {display:none}
-  #title:hover:before {content:"Vuillermoz"}-->
-    </div><!--end box1-->
+      <div class="half-wrapper" id=wrapper2>
 
-    </div>
+        <div class=fourth-wrapper id=des>
+          <p class="fit" id="pdes">web designer<br> &<br> illustrator</p>
+        </div>
+
+        <div class=third-wrapper id=box1>
+          <h1><span id=title3>VUI</span></h1>
+          <!--CSS: #title:hover .head2 {display:none}
+          #title:hover:before {content:"Vuillermoz"}-->
+        </div><!--end box1-->
+
+      </div><!--end of half-wrapper-->
+
+    </div><!--end of content-wrapper-->
+
 
     <button class="button button1"><!--HERE GOES THE ARROW DOWN ICON*******--></button> <!--CSS: .button {
   background-color: #4CAF50;
@@ -93,26 +105,17 @@
 
   <main>
 
-    <div class=full-width>
+    <div class=content-wrapper>
       <div>
         <h2><span>straightforward</span> code</h2>
 
-        <span class="dot"></span>
-          <!--********************here goes the circle**********************-->
-          <!--CSS: .dot {
-  height: 25px;
-  width: 25px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  }-->
+        <span class="dot1"></span>
 
       </div>
       <div>
         <h2><span>captivating</span> design</h2>
 
-        <span class="dot"></span>
-          <!--********************here goes the circle**********************-->
+        <span class="dot1" id="dt"></span>
 
       </div>
       <div>
@@ -124,7 +127,7 @@
     </div>
 
     <!--WORK SECTION***********************-->
-    <div class=full-width id=works>
+    <div class=content-wrapper id=works>
       <div class=third-width>
         <h1>Wo<br>rks</h1>
       </div>
@@ -144,7 +147,7 @@
   </div>
       </div>
 
-      <div class=full-width>
+      <div class=content-wrapper>
         <h2><span>Design</span></h2>
       </div>
 
@@ -156,7 +159,7 @@
         <!--HERE GO THE ARROWS************************-->
       </div>
 
-       <div class=full-width>
+       <div class=content-wrapper>
          <h2><span>Development</span></h2>
        </div>
 
@@ -168,7 +171,7 @@
          <!--HERE GO THE ARROWS************************-->
       </div>
 
-      <div class=full-width>
+      <div class=content-wrapper>
         <h2><span>Illustrations</span></h2>
       </div>
 
@@ -183,12 +186,12 @@
    </div><!--END OF WORKS SECTION-->
 
    <!--ABOUT SECTION**********-->
-   <div class=full-width id=about>
+   <div class=content-wrapper id=about>
      <div class=third-width>
        <h1>Ab<br>out</h1>
      </div>
 
-     <div class=full-width>
+     <div class=content-wrapper>
        <h2><span>Ciao!</span></h2>
        <p>I am Chiara, a freelance front-end developer,
        web designer and illustrator.
@@ -199,11 +202,11 @@
        Of course I am available for collaborations everywhere.</p>
      </div>
 
-     <div class=full-width id=about-img>
+     <div class=content-wrapper id=about-img>
        <img src="img/about-picture.png" alt="about picture"/>
      </div>
 
-     <div class=full-width id=about-work>
+     <div class=content-wrapper id=about-work>
        <h2><span>My work</span></h2>
        <p>here text about my way of working and services</p>
      </div>
@@ -216,12 +219,12 @@
   <footer>
 
    <!--CONTACT SECTION**********-->
-   <div class=full-width id=contact>
+   <div class=content-wrapper id=contact>
      <div class=third-width>
        <h1>Con<br>tact</h1>
      </div>
 
-     <div class=full-width id=content>
+     <div class=content-wrapper id=content>
        <h2><span>Let's get in touch!</span></h2>
 
      <div class="container">
@@ -243,7 +246,7 @@
      </div><!--end of container div-->
 
        <div id=other-contact>
-         <p id=email>or email me at:<br>
+         <p id=email2>or email me at:<br>
            chiara.vuillermoz@libero.it</p>
          <p id=social>you can also find me here:</p>
 
@@ -254,7 +257,7 @@
 
     </div><!--end of contact div-->
 
-    <div class=full-width id=copyright>
+    <div class=content-wrapper id=copyright>
       <p>Copyright 2021 | Chiara Vuillermoz</p>
     </div>
 
