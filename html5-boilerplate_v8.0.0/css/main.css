@@ -106,7 +106,8 @@ textarea {
      font-family: 'Roboto', sans-serif;
      font-size: 8.375rem;
      font-weight: normal;
-     line-height: 125px;
+     line-height: 100px;
+     margin:0;
      width: 85%;
    }
 
@@ -250,7 +251,6 @@ textarea {
      justify-content: flex-start;
      align-items: center;
      flex-flow: row wrap;
-     height: 18vh;
      width: 100%;
    }
 
@@ -267,9 +267,13 @@ textarea {
      width: 15%;
    }
 
+   #wrapper1{
+     padding-top: 100px;
+   }
+
    #wrapper2{
      justify-content: flex-end;
-     padding-bottom: 200px;
+     padding-bottom: 100px;
      width: 100%;
    }
 
@@ -327,10 +331,18 @@ textarea {
     background: linear-gradient(130deg, rgba(217, 13, 203, 0.4), rgba(5, 199, 242, 0.4));
   }
 
-/*----- classes and id-----*/
+/******* MAIN******/
+  #services{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+  }
 
-
-
+  .ser{
+    text-align: center;
+  }
 
   .dot1{
     height: 15px;
@@ -344,13 +356,26 @@ textarea {
     background-color: #bf07f2;
   }
 
-#img{
+/*---cat image---*/
+  #img{
+    padding: 25px 0;
+    width: 75%;
+  }
 
-}
+/*------WORK SECTION---*/
+  #works{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+  }
 
-#works{
-
-}
+  #titw{
+    align-self: flex-end;
+    padding: 20px 0;
+    width: 100%;
+  }
 
 #drop-down{
 
