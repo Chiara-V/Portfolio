@@ -303,7 +303,7 @@ textarea {
       width: 100%;
     }
 
-    .btn-circle.btn-xl {
+  .btn-circle.btn-xl {
     width: 70px;
     height: 70px;
     padding: 10px 16px;
@@ -311,16 +311,20 @@ textarea {
     text-align: center;
     font-size: 24px;
     line-height: 1.33;
-    margin: 20px 0 0 10px;
+    margin: 20px 0 30px 10px;
     align-self: flex-start;
 }
 
-  #arr{
+  .btn-circle{
+    border: none;
+  }
+
+  #arr {
     content: "\2193";
   }
 
   #grad {
-    background: linear-gradient(130deg, #d90dcb, #05c7f2);
+    background: linear-gradient(130deg, rgba(217, 13, 203, 0.4), rgba(5, 199, 242, 0.4));
   }
 
 /*----- classes and id-----*/
