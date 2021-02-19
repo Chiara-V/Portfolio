@@ -98,6 +98,7 @@ textarea {
      font-family: 'Spectral', serif;
      font-size: 1.125em;
      line-height: 20px;
+     margin: 0px;
    }
 
    /*---------headlines---------*/
@@ -113,7 +114,6 @@ textarea {
      font-family: 'Roboto', sans-serif;
      font-size:  8.375rem;
      font-weight: normal;
-     line-height: 125px;
    }
 
   /* #title span :hover, #title span :active {
@@ -172,7 +172,6 @@ textarea {
 
    /*---------images---------*/
    img {
-     padding-left: 10px;
      width: 100%;
    }
 
@@ -228,10 +227,10 @@ textarea {
      justify-content: space-around;
      align-items: center;
      flex-flow: row wrap;
-     padding-right: 5px;
    }
 
    nav ul li {
+     font-family: 'Roboto', sans-serif, regular;
      margin: 0;
      padding: 0 5px;
    }
@@ -249,12 +248,10 @@ textarea {
    .half-wrapper{
      display: flex;
      justify-content: flex-start;
-     align-items: flex-start;
+     align-items: center;
      flex-flow: row wrap;
+     height: 18vh;
      width: 100%;
-   }
-
-   #hwr{
    }
 
    .third-wrapper #box{
@@ -272,6 +269,7 @@ textarea {
 
    #wrapper2{
      justify-content: flex-end;
+     padding-bottom: 200px;
      width: 100%;
    }
 
@@ -297,31 +295,19 @@ textarea {
      font-size: 16px;
    }
 
+/*----BUTTON ARROW DOWN---*/
+  .button{
+
+  }
+
+  .button1{
+
+  }
 
 /*----- classes and id-----*/
-#box{
 
-}
 
-#title1{
 
-}
-
-#box1{
-
-}
-
-#title3{
-
-}
-
-.button{
-
-}
-
-.button1{
-
-}
 
   .dot1{
     height: 15px;
