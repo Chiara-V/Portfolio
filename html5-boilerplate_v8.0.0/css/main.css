@@ -202,8 +202,8 @@ textarea {
 /*---logo and nav--*/
    #logo{
      align-self: flex-start;
-     padding-top: 5px;
-     width: 10%;
+     padding: 5px 0 0 10px;
+     width: 15%;
    }
 
    .half-width {
@@ -296,12 +296,31 @@ textarea {
    }
 
 /*----BUTTON ARROW DOWN---*/
-  .button{
+    #wrp{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+    }
 
+    .btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.33;
+    margin: 20px 0 0 10px;
+    align-self: flex-start;
+}
+
+  #arr{
+    content: "\2193";
   }
 
-  .button1{
-
+  #grad {
+    background: linear-gradient(130deg, #d90dcb, #05c7f2);
   }
 
 /*----- classes and id-----*/
