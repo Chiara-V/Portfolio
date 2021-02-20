@@ -366,18 +366,24 @@ textarea {
 /*------SERVICES SECTION---*/
   #services{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     width: 100%;
   }
 
-  #titw{
-    align-self: flex-end;
-    padding: 20px 0;
+  #sr{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     width: 100%;
   }
 
+  #serv{
+    align-self: flex-end;
+    padding: 0 10px 40px 0;
+    text-align: right;
+  }
   /*---SLIDESHOW SERVICES---*/
 /***circles***/
 /**
@@ -393,28 +399,7 @@ textarea {
   }
 
 **/
-
-  * {
-    box-sizing: border-box;
-  }
-
-  .slider {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    text-align: center;
-    overflow: hidden;
-  }
-
-  .slides {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-
-  .s1{
+  .slider{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -424,9 +409,10 @@ textarea {
 
   .sld{
     border: 1px solid black;
-    padding: 70px 50px;
-    margin: 10px;
+    padding: 40px 20px;
+    margin: 10px 20px;
     width: 80%;
+    text-align: center;
   }
 
   .grad {
