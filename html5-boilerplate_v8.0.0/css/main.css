@@ -350,9 +350,10 @@ textarea {
     background-color: #d90dcb;
     border-radius: 50%;
     display: inline-block;
+    opacity: 0.5;
   }
 
-  #dt {
+  .dt {
     background-color: #bf07f2;
   }
 
@@ -362,8 +363,8 @@ textarea {
     width: 75%;
   }
 
-/*------WORK SECTION---*/
-  #works{
+/*------SERVICES SECTION---*/
+  #services{
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -376,6 +377,63 @@ textarea {
     padding: 20px 0;
     width: 100%;
   }
+
+  /*---SLIDESHOW SERVICES---*/
+/***circles***/
+/**
+  #dts{
+    background-color: #8b51d9;
+  }
+
+  #dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+**/
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .slides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .s1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+
+  .sld{
+    border: 1px solid black;
+    padding: 70px 50px;
+    margin: 10px;
+    width: 80%;
+  }
+
+  .grad {
+    background: linear-gradient(130deg, rgba(217, 13, 203, 0.2), rgba(5, 199, 242, 0.2));
+  }
+
+
 
 #drop-down{
 
