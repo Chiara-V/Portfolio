@@ -254,6 +254,10 @@ header figure {
      padding: 0 5px;
    }
 
+
+   /*-----------------------MOBILE---------------------*/
+   /*---------------HOMEPAGE---------------*/
+
    /*---chi vui--*/
    #wrapper{
      display: flex;
@@ -494,9 +498,18 @@ span.hv{
     background: linear-gradient(130deg, rgba(217, 13, 203, 0.5), rgba(5, 199, 242, 0.5));
   }
 
-  /* Services icons*/
+  /* Works icons*/
   .slider i {
 	   font-size: 2rem;
+   }
+
+   /*Works links to other pages*/
+   .slider a {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+     width: 100%;
    }
 
 /*----ABOUT SECTION----*/
@@ -662,6 +675,8 @@ span.hv{
   #copyright{
     padding-top: 40px;
   }
+
+/*---------------DESIGN PAGE---------------*/
 
 
 
