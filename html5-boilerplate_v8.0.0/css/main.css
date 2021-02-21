@@ -267,7 +267,7 @@ textarea {
      width: 80%;
    }
 
-   #title1{
+   .title1{
      padding-right: 10px;
    }
 
@@ -296,7 +296,7 @@ textarea {
      width: 15%;
    }
 
-   #title3{
+   .title3{
      padding-left: 10px;
    }
 
@@ -309,14 +309,14 @@ textarea {
    }
 
 /*----BUTTON ARROW DOWN---*/
-    #wrp{
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      width: 100%;
-      padding: 0;
-      margin: 0;
-    }
+  #wrp{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
 
   .btn-circle.btn-xl {
     width: 70px;
@@ -427,96 +427,170 @@ textarea {
   .sld{
     border: 1px solid black;
     padding: 40px 20px;
-    margin: 10px 20px;
-    width: 80%;
+    margin: 5px 10px;
+    width: 90%;
     text-align: center;
   }
 
   .grad {
-    background: linear-gradient(130deg, rgba(217, 13, 203, 0.2), rgba(5, 199, 242, 0.2));
+    background: linear-gradient(130deg, rgba(217, 13, 203, 0.1), rgba(5, 199, 242, 0.1));
   }
 
+  /* When moving the mouse over the div, add a darker color */
+  div#slide-1:hover, div#slide-2:hover, div#slide-3:hover {
+    background: linear-gradient(130deg, rgba(217, 13, 203, 0.5), rgba(5, 199, 242, 0.5));
+  }
 
+/*----ABOUT SECTION----*/
+  #about, #contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+    box-sizing: border-box;
+  }
 
-#drop-down{
+  .third-width{
+    align-self: flex-start;
+    width: 100%;
+  }
 
-}
+  .pdd{
+    padding-top: 80px;
+  }
 
-.dropdown{
+  .text{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    width: 90%;
+  }
 
-}
+  .int{
+    width: 100%;
+  }
 
-.dropbtn{
+/*--------CONTACT SECTION--------*/
+  #cnc{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+    box-sizing: border-box;
+  }
 
-}
+  #tit{
+    align-self: flex-end;
+    padding-bottom: 40px;
+    text-align: right;
+  }
 
-.dropdown-content{
+  #content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+    box-sizing: border-box;
+  }
 
-}
+  #tch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 40%;
+  }
 
-#design-project{
+  #nm{
+    margin-top: 0;
+  }
 
-}
+  .text1{
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    width: 90%;
+  }
 
-.button2{
+  #pr{
+    text-align: right;
+  }
 
-}
+  /* Style form*/
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 90%;
+  }
 
-#illustrations-project{
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text], select, textarea {
+    width: 100%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
 
-}
+  /* Style the submit button with a specific background color etc */
+  #sub{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+  }
 
-#about{
+  input[type=submit] {
+    padding: 12px 20px;
+    border: 1px solid #000;
+    cursor: pointer;
+    align-self: flex-end;
+  }
 
-}
+  /* When moving the mouse over the submit button, add a darker color */
+  input[type=submit]:hover {
+    background: linear-gradient(130deg, rgba(217, 13, 203, 0.5), rgba(5, 199, 242, 0.5));
+  }
 
-#about-img{
+  #other-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+    box-sizing: border-box;
+  }
 
-}
+  #oc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 90%;
+    text-align: center;
+    padding: 30px 0;
+  }
 
-#about-work{
+  #email2{
+    padding-bottom: 30px;
+  }
 
-}
+  #social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 90%;
+  }
 
-#contact{
-
-}
-
-#content{
-
-}
-
-.container{
-
-}
-
-#name{
-
-}
-
-#email{
-
-}
-
-#message{
-
-}
-
-#other-contact{
-
-}
-
-#email2{
-
-}
-
-#social{
-
-}
-
-#copyright{
-
-}
+  #copyright{
+    padding-top: 40px;
+  }
 
 
 

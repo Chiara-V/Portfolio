@@ -61,7 +61,7 @@
       <div class="half-wrapper" id="wrapper1">
 
         <div class=third-wrapper id=box>
-          <h1><span id=title1>CHI</span></h1>
+          <h1><span class="title1">CHI</span></h1>
           <!--CSS: #title:hover .head1 {display:none}
           #title:hover:before {content:"Chiara"}-->
         </div><!--end of box-->
@@ -132,17 +132,17 @@
       <!--/*-SLIDESHOW-*-->
       <div class="slider">
 
-          <div id="slide-1" class="sld grad">
+          <div id="slide-1" class="sld grad"><a href="" target="_blank"></a>
             <h2><span>Design</span></h2>
             <i class="fas fa-pencil-alt"></i>
           </div>
 
-          <div id="slide-2" class="sld grad">
+          <div id="slide-2" class="sld grad"><a href="" target="_blank"></a>
             <h2><span>Development</span></h2>
             <i class="fas fa-tools"></i>
           </div>
 
-          <div id="slide-3" class="sld grad">
+          <div id="slide-3" class="sld grad"><a href="" target="_blank"></a>
             <h2><span>Illustrations</span></h2>
             <i class="fas fa-images"></i>
           </div>
@@ -158,13 +158,13 @@
    </div><!--END OF SERVICES SECTION-->
 
    <!--ABOUT SECTION**********-->
-   <div class=content-wrapper id=about>
+   <div id=about>
      <div class=third-width>
-       <h1>Ab<br>out</h1>
+       <h1 class="title3 pdd">Ab<br>out</h1>
      </div>
 
-     <div class=content-wrapper>
-       <h2><span>Ciao!</span></h2>
+     <div class="text">
+       <h2><span class="int">Ciao!</span></h2>
        <p>I am Chiara, a freelance front-end developer,
        web designer and illustrator.
        I love helping you finding the spot on the internet you need.
@@ -178,9 +178,9 @@
        <img src="img/about-picture.png" alt="about picture"/>
      </div>
 
-     <div class=content-wrapper id=about-work>
-       <h2><span>My work</span></h2>
-       <p>here text about my way of working and services</p>
+     <div class="text1">
+       <h2><span class="int">My work</span></h2>
+       <p class="text1" id="pr">here text about my way of working and services</p>
      </div>
 
    </div><!--END OF ABOUT SECTION***********************-->
@@ -191,45 +191,54 @@
   <footer>
 
    <!--CONTACT SECTION**********-->
-   <div class=content-wrapper id=contact>
-     <div class=third-width>
-       <h1>Con<br>tact</h1>
+   <div id=contact>
+     <div id="cnc">
+       <h1 class="title1 pdd" id="tit">Con<br>tact</h1>
      </div>
 
-     <div class=content-wrapper id=content>
-       <h2><span>Let's get in touch!</span></h2>
+     <div id=content>
+      <div id="tch">
+        <h2 id="nm"><span>Let's get in touch!</span></h2>
+      </div>
 
      <div class="container">
        <form action="action_page.php">
 
          <label for="name">NAME</label>
-         <input type="text" id="name" name="name" placeholder="Your name">
+         <input type="text"class="grad" id="name" name="name" placeholder="Your name">
 
          <label for="email">EMAIL</label>
-         <input type="text" id="email" name="email" placeholder="example@gmail.com">
+         <input type="text" class="grad" id="email" name="email" placeholder="example@gmail.com">
 
          <label for="message">Your Message</label>
-         <textarea id="message" name="message" placeholder="Write something" style="height:200px"></textarea>
+         <textarea id="message" class="grad" name="message" placeholder="Write something" style="height:200px"></textarea>
 
-         <input type="submit" value="Submit">
+         <div id="sub">
+           <input type="submit" class="grad" value="Submit">
+         </div>
 
        </form>
        <!--for CSS: https://www.w3schools.com/howto/howto_css_contact_form.asp-->
      </div><!--end of container div-->
 
        <div id=other-contact>
-         <p id=email2>or email me at:<br>
+         <div id="oc">
+           <p id=email2>or email me at:<br>
            chiara.vuillermoz@libero.it</p>
-         <p id=social>you can also find me here:</p>
+           <p>you can also find me here:</p>
+         </div>
 
-        <a href="https://www.linkedin.com/in/chiara-v-447b9b1b2/" target="_blank"><img src="img/linkedin.png" alt="linkedin-icon"/></a>
-        <a href="https://github.com/Chiara-V" target="_blank"><img src="img/github.png" alt="github-icon"/></a>
-        <!--HERE GO THE SOCIAL ICONS LINKED TO THE SOCIAL PAGES********-->
+         <div id=social>
+           <a href="https://www.linkedin.com/in/chiara-v-447b9b1b2/" target="_blank"><img src="img/linkedin.png" alt="linkedin-icon"/></a>
+           <a href="https://github.com/Chiara-V" target="_blank"><img src="img/github.png" alt="github-icon"/></a>
+           <!--HERE GO THE SOCIAL ICONS LINKED TO THE SOCIAL PAGES********-->
+         </div>
+
       </div><!--end of content div-->
 
     </div><!--end of contact div-->
 
-    <div class=content-wrapper id=copyright>
+    <div id=copyright>
       <p>Copyright 2021 | Chiara Vuillermoz</p>
     </div>
 
