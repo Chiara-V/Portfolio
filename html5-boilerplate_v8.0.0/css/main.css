@@ -181,6 +181,10 @@ textarea {
      width: 100%;
    }
 
+   figure {
+        margin: 0;
+    }
+
    /*--Paragraph--*/
    p {
      margin:0;
@@ -208,10 +212,17 @@ textarea {
    }
 
 /*---logo and nav--*/
+header figure {
+    width: 17%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+}
    #logo{
      align-self: flex-start;
      padding: 5px 0 0 10px;
-     width: 15%;
+     width: 100%;
    }
 
    .half-width {
@@ -377,6 +388,14 @@ span.hv{
   }
 
 /******* MAIN******/
+  main figure{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
   #intro{
     display: flex;
     justify-content: center;
@@ -462,7 +481,7 @@ span.hv{
     border: 1px solid black;
     padding: 40px 20px;
     margin: 5px 10px;
-    width: 90%;
+    width: 100%;
     text-align: center;
   }
 
@@ -475,6 +494,11 @@ span.hv{
     background: linear-gradient(130deg, rgba(217, 13, 203, 0.5), rgba(5, 199, 242, 0.5));
   }
 
+  /* Services icons*/
+  .slider i {
+	   font-size: 2rem;
+   }
+
 /*----ABOUT SECTION----*/
   #about, #contact{
     display: flex;
@@ -483,6 +507,10 @@ span.hv{
     flex-flow: row wrap;
     width: 100%;
     box-sizing: border-box;
+  }
+
+  #about-img{
+    width: 95%;
   }
 
   #pdr{
@@ -540,11 +568,11 @@ span.hv{
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    width: 40%;
+    width: 100%;
   }
 
   #nm{
-    margin-top: 0;
+    text-align: center;
   }
 
   .text1{
@@ -624,7 +652,11 @@ span.hv{
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
-    width: 90%;
+    width: 100%;
+  }
+
+  #social i {
+    font-size: 5em;
   }
 
   #copyright{
