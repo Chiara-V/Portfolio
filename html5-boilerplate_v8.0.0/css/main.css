@@ -244,69 +244,103 @@ textarea {
    }
 
    /*---chi vui--*/
-
-   #wrapper {
+   #wrapper{
      display: flex;
-     justify-content: flex-start;
+     justify-content: center;
      align-items: center;
-     flex-flow: row wrap;
+     flex-flow:row wrap;
      width: 100%;
-     padding:0;
-     margin: 0;
+     box-sizing: border-box;
    }
 
    .half-wrapper{
      display: flex;
-     justify-content: flex-start;
+     justify-content: center;
      align-items: center;
      flex-flow: row wrap;
      width: 100%;
    }
 
-   .third-wrapper #box{
-     width: 80%;
-   }
-
-   .title1{
-     padding-right: 10px;
-   }
-
-   .fourth-wrapper #front {
-     align-self: center;
-     width: 15%;
+   #box{
+     display: flex;
+     justify-content: flex-start;
+     width: 75%;
    }
 
    #wrapper1{
-     padding-top: 100px;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     width: 100%;
+     padding-top: 150px;
+   }
+
+   span#title1.normal{
+     align-self: flex-start;
+   }
+
+   #front{
+     display: flex;
+     justify-content: flex-end;
+     width: 10%;
+     text-align: center;
+     padding-left: 60px;
+   }
+
+
+   #des{
+     display: flex;
+     justify-content: flex-start;
+     width: 10%;
+     text-align: center;
+     padding-right: 50px;
+   }
+
+   #box1{
+     display: flex;
+     justify-content: flex-end;
+     width: 75%;
+     text-align: right;
    }
 
    #wrapper2{
+     display: flex;
      justify-content: flex-end;
-     padding-bottom: 100px;
+     align-items: center;
      width: 100%;
+     padding-bottom: 120px;
    }
 
-   .third-wrapper #box1{
+   span#title3{
      align-self: flex-end;
-     width: 80%;
    }
 
-   .fourth-wrapper #des {
-     align-self: center;
-     width: 15%;
-   }
 
-   .title3{
-     padding-left: 10px;
-   }
+/* Making Chi Vui hover */
+.normal:hover {
+   display: none;
+}
 
-   #pdes {
-     text-align: center;
-   }
+.hovered{
+  display: none;
+}
 
-   .fit{
-     font-size: 16px;
-   }
+.normal:hover + .hovered{
+  display: block;
+}
+
+span.hv{
+  font-size: 3rem;
+  font-family: 'Satisfy', cursive;
+}
+
+#sp1{
+  padding-left: 40px;
+}
+
+#sp2{
+  padding-right: 20px;
+}
 
 /*----BUTTON ARROW DOWN---*/
   #wrp{
@@ -451,6 +485,10 @@ textarea {
     box-sizing: border-box;
   }
 
+  #pdr{
+    padding-left: 10px;
+  }
+
   .third-width{
     align-self: flex-start;
     width: 100%;
@@ -483,6 +521,7 @@ textarea {
 
   #tit{
     align-self: flex-end;
+    padding-right: 10px;
     padding-bottom: 40px;
     text-align: right;
   }
