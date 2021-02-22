@@ -427,6 +427,16 @@ span.hv{
     background-color: #bf07f2;
   }
 
+  .wdot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 50px 0;
+  }
+
 /*---cat image---*/
   #img{
     padding: 25px 0;
@@ -677,7 +687,168 @@ span.hv{
   }
 
 /*---------------DESIGN PAGE---------------*/
+  .dwrp{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding-top: 0;
+  }
 
+  .pdd1{
+    padding-left: 20px;
+  }
+
+/*dropdown menu*/
+  /* Dropdown Button */
+  .dropbtn {
+    padding: 16px;
+    border: none;
+    align-self: flex-end;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background: linear-gradient(130deg, rgba(217, 13, 203, 0.5), rgba(5, 199, 242, 0.5));}
+
+  /*projects gallery*/
+  #a2021, #a2020{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .project-wrp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 90%;
+  }
+
+  .txt-wrp{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+
+  .tlt{
+    padding-bottom: 10px;
+    padding-top: 30px;
+    width: 100%;
+  }
+
+  .img-wrp, .see-btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .sm-btn{
+    padding: 12px 20px;
+    border: 1px solid #000;
+  }
+
+  input[type=button].sm-btn{
+    cursor: pointer;
+    align-self: center;
+  }
+
+  /* When moving the mouse over the submit button, add a darker color */
+ .see-btn:hover .sm-btn{
+    background: linear-gradient(130deg, rgba(217, 13, 203, 0.5), rgba(5, 199, 242, 0.5));
+  }
+
+  /*img*/
+  .slideshow-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 90%;
+  }
+
+  /* Hide the images by default */
+  .fgr {
+    display: none;
+  }
+
+  figure .fgr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+
+  .pr-img{
+    margin: 20px 0 50px;
+    width: 100%;
+  }
+
+  .dotsl {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #d90dcb;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dotsl:hover {
+    background-color: #2ba5eb;
+  }
+
+  .dt2{
+    background-color: #9b44d6;
+  }
+
+  .dt3{
+    background-color: #6474e1;
+  }
+
+  .dt4{
+    background-color: #6077e1;
+  }
+
+  .dt5{
+    background-color: #5482e3;
+  }
 
 
 /* ==========================================================================
