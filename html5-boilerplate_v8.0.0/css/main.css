@@ -770,10 +770,18 @@ span.hv{
     width: 100%;
   }
 
+  .dvlp{
+    font-size: 2.5rem;
+  }
+
   .img-wrp, .see-btn{
     display: flex;
     justify-content: center;
     width: 100%;
+  }
+
+  .img-wrp{
+    padding: 20px 0;
   }
 
   .sm-btn{
@@ -797,12 +805,7 @@ span.hv{
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    width: 90%;
-  }
-
-  /* Hide the images by default */
-  .fgr {
-    display: none;
+    width: 100%;
   }
 
   figure .fgr{
@@ -813,8 +816,7 @@ span.hv{
     width: 100%;
   }
 
-  .pr-img{
-    margin: 20px 0 50px;
+  img.pr-img{
     width: 100%;
   }
 
