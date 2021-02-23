@@ -24,6 +24,8 @@
 
   <meta name="theme-color" content="#fafafa">
 
+  <!--jquery-->
+  <script src="jquery-3.5.1.min.js"></script>
 
     <!--google fonts-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -92,39 +94,33 @@
           <p>SKILLS: Figma, Photoshop, Responsive Website, Mobile First Approach, Wireframing, UI&UX Design</p>
         </div>
 
-        <div class="slideshow-container">
-
-          <div class="img-wrp">
-            <figure class="fgr">
+        <div class="slideshow-container" id="slideshow1">
+          <div class="list">
+            <figure class="slide">
               <img class="pr-img" src="../img/aac/01-home.png" alt="slide 1"/>
             </figure>
-          </div>
 
-          <div class="img-wrp">
-            <figure class="fgr">
+            <figure class="slide">
               <img class="pr-img" src="../img/aac/02-articolo.png" alt="slide 2"/>
             </figure>
-          </div>
 
-          <div class="img-wrp">
-            <figure class="fgr">
+            <figure class="slide">
               <img class="pr-img" src="../img/aac/03-località.png" alt="slide 3"/>
             </figure>
-          </div>
 
-          <div class="img-wrp">
-            <figure class="fgr">
-              <img class="pr-img" src="../img/aac/01-green.png" alt="slide 4"/>
+            <figure class="slide">
+              <img class="pr-img" src="../img/aac/04-green.png" alt="slide 4"/>
             </figure>
+
+          </div><!--end of list-->
+
+          <!-- Next and previous buttons -->
+          <div class="pnbtn">
+            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
           </div>
 
         </div><!--end of slideshow-->
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-          <span class="dotsl" onclick="currentSlide(1)"></span>
-          <span class="dotsl" onclick="currentSlide(2)"></span>
-          <span class="dotsl" onclick="currentSlide(3)"></span>
-        </div>
 
         <div class="see-btn">
           <button type="button" class="sm-btn grad" style="width: 100%">See More</button>
@@ -147,39 +143,33 @@
           <p>SKILLS: Adobe XD, Responsive Website, Mobile First Approach, Wireframing, UI&UX Design</p>
         </div>
 
-        <div class="slideshow-container">
-
-          <div class="img-wrp">
-            <figure class="fgr">
+        <div class="slideshow-container" id="slideshow2">
+          <div class="list">
+            <figure class="slideb">
               <img class="pr-img" src="../img/bh/bh-home.png" alt="slide 1"/>
             </figure>
-          </div>
 
-          <div class="img-wrp">
-            <figure class="fgr">
+            <figure class="slideb">
               <img class="pr-img" src="../img/bh/bh-account.png" alt="slide 2"/>
             </figure>
-          </div>
 
-          <div class="img-wrp">
-            <figure class="fgr">
+            <figure class="slideb">
               <img class="pr-img" src="../img/bh/bh-shop.png" alt="slide 3"/>
             </figure>
-          </div>
 
-          <div class="img-wrp">
-            <figure class="fgr">
-              <img class="pr-img" src="../img/bh//bh-checkout.png" alt="slide 4"/>
+            <figure class="slideb">
+              <img class="pr-img" src="../img/bh/fs-checkout.png" alt="slide 4"/>
             </figure>
+
+          </div><!--end of list-->
+
+          <!-- Next and previous buttons -->
+          <div class="pnbtn">
+            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
           </div>
 
         </div><!--end of slideshow-->
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-          <span class="dotsl" onclick="currentSlide(1)"></span>
-          <span class="dotsl" onclick="currentSlide(2)"></span>
-          <span class="dotsl" onclick="currentSlide(3)"></span>
-        </div>
 
         <div class="see-btn">
           <button type="button" class="sm-btn grad" style="width: 100%">See More</button>
@@ -200,32 +190,15 @@
             </div>
 
             <div class="slideshow-container">
-
-              <div class="img-wrp">
-                <figure class="fgr">
+              <div class="list">
+                <figure class="slidec">
                   <img class="pr-img" src="../img/scm/scm.png" alt="slide 1"/>
                 </figure>
-              </div>
 
-              <div class="img-wrp">
-                <figure class="fgr">
-                  <img class="pr-img" src="../img/scm/mobile.png" alt="slide 2"/>
-                </figure>
-              </div>
+              </div><!--end of list-->
 
-              <div class="img-wrp">
-                <figure class="fgr">
-                  <img class="pr-img" src="../img/scm/tabl.png" alt="slide 3"/>
-                </figure>
-              </div>
 
             </div><!--end of slideshow-->
-            <!-- The dots/circles -->
-            <div style="text-align:center">
-              <span class="dotsl" onclick="currentSlide(1)"></span>
-              <span class="dotsl" onclick="currentSlide(2)"></span>
-              <span class="dotsl" onclick="currentSlide(3)"></span>
-            </div>
 
             <div class="see-btn">
               <button type="button" class="sm-btn grad" style="width: 100%">See More</button>

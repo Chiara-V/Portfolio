@@ -434,7 +434,7 @@ span.hv{
     flex-flow: row wrap;
     width: 100%;
     box-sizing: border-box;
-    margin: 50px 0;
+    margin-top: 50px;
   }
 
 /*---cat image---*/
@@ -799,43 +799,6 @@ span.hv{
     background: linear-gradient(130deg, rgba(217, 13, 203, 0.5), rgba(5, 199, 242, 0.5));
   }
 
-  /*img*/
-  .slideshow-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    width: 100%;
-  }
-
-  figure .fgr{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    width: 100%;
-  }
-
-  img.pr-img{
-    width: 100%;
-  }
-
-  .dotsl {
-    cursor: pointer;
-    height: 10px;
-    width: 10px;
-    margin: 0 2px;
-    background-color: #d90dcb;
-    border-radius: 50%;
-    display: inline-block;
-    opacity: 0.5;
-    transition: background-color 0.6s ease;
-  }
-
-  .active, .dotsl:hover {
-    background-color: #2ba5eb;
-  }
-
   .dt2{
     background-color: #9b44d6;
   }
@@ -851,6 +814,78 @@ span.hv{
   .dt5{
     background-color: #5482e3;
   }
+
+  /*slideshow*/
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+div .pr-img {
+  align-self: center;
+  width: 100%;
+  margin: 30px 0;
+}
+
+/* Hide the images by default */
+.slide {
+  display: none;
+  align-self: center;
+  padding: 0;
+}
+
+/* Next & previous buttons */
+.pnbtn{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-flow: row wrap;
+width: 100%;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 5px;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background: linear-gradient(130deg, rgba(217, 13, 203, 0.1), rgba(5, 199, 242, 0.1));
+}
+
 
 
 /* ==========================================================================
