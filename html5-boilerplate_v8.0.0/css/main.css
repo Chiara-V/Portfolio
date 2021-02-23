@@ -913,7 +913,37 @@ width: 100%;
   background: linear-gradient(130deg, rgba(217, 13, 203, 0.1), rgba(5, 199, 242, 0.1));
 }
 
+  .fwa{
+    width: 100%;
+  }
 
+  #hw{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 40%;
+  }
+
+  #lkh:link{
+    color: black;
+  }
+
+  #lkh:hover{
+    color: #9b44d6;
+  }
+
+  #lkh:active{
+    color: #5482e3;
+  }
+
+  .cntr{
+    text-align: center;
+  }
+
+  .wds{
+    width: 10%;
+  }
 
 /* ==========================================================================
    Helper classes
