@@ -1,9 +1,11 @@
 
-var slideIndex = [1,1,1];
-var slideId = ["slide", "slideb", "slidec"]
+var slideIndex = [1,1,1,1, 1];
+var slideId = ["slide", "slideb", "slidec", "slided", "slidef"]
 showSlides(1, 0);
 showSlides(1, 1);
 showSlides(1,2);
+showSlides(1, 3);
+showSlides(1,4);
 
 // Next/previous controls
 function plusSlides(n, no) {

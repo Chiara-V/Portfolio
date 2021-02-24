@@ -872,7 +872,7 @@ div .pr-img {
 }
 
 /* Hide the images by default */
-.slide , .slideb, .slidec{
+.slide , .slideb, .slidec, .slided, .slidef{
   display: none;
   align-self: center;
   padding: 0;
