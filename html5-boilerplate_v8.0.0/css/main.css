@@ -868,11 +868,11 @@ span.hv{
 div .pr-img {
   align-self: center;
   width: 100%;
-  margin: 30px 0;
+  margin: 10px 0 30px 0;
 }
 
 /* Hide the images by default */
-.slide {
+.slide , .slideb, .slidec{
   display: none;
   align-self: center;
   padding: 0;
@@ -948,6 +948,13 @@ width: 100%;
 
   #nmg{
     margin-bottom: 0;
+  }
+
+/*didascalia*/
+  .didascalia{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
   }
 
 /* ==========================================================================
