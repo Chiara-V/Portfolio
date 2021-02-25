@@ -209,6 +209,7 @@ textarea {
      width: 100%;
      padding: 0;
      margin: 0;
+     background: white;
    }
 
 /*---logo and nav--*/
@@ -254,6 +255,21 @@ header figure {
      padding: 0 5px;
    }
 
+   .navbar{
+     overflow: hidden;
+  background: white;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 10;
+   }
+
+   /* Change background on mouse-over */
+.navbar .bk:hover {
+  background: #ddd;
+  color: black;
+}
+
    /*language button*/
    #lang{
      display: flex;
@@ -262,6 +278,11 @@ header figure {
      flex-flow: row wrap;
      width: 90%;
      box-sizing: border-box;
+     margin-top: 70px;
+   }
+
+   #hw{
+     margin-top: 70px;
    }
 
    .spt{
@@ -383,7 +404,9 @@ span.hv{
 #sp2{
   padding-right: 20px;
 }
+  #downhere{
 
+  }
 /*----BUTTON ARROW DOWN---*/
   #wrp{
     display: flex;
@@ -490,7 +513,7 @@ span.hv{
 
   #serv{
     align-self: flex-end;
-    padding: 0 10px 40px 0;
+    padding: 80px 10px 40px 0;
     text-align: right;
   }
   /*---SLIDESHOW SERVICES---*/
