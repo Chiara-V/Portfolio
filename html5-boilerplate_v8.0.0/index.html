@@ -23,6 +23,8 @@
 
   <meta name="theme-color" content="#fafafa">
 
+  <!--jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!--google fonts-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -44,15 +46,19 @@
       <div class="half-width">
          <nav>
              <ul>
-               <li><a href ="#works" class="bk">WORKS</a></li>
+               <li class="en"><a href ="#works" class="bk">WORKS</a></li>
+               <li class="it"><a href ="#works" class="bk">LAVORI</a></li>
 
                <span class="dot"></span>
 
-               <li><a href ="#about" class="bk">ABOUT</a></li>
+               <li class="en"><a href ="#about" class="bk">ABOUT</a></li>
+               <li class="it"><a href ="#works" class="bk">CHI SONO</a></li>
 
                <span class="dot"></span>
 
-               <li><a href ="#contact" class="bk">CONTACT</a></li>
+               <li class="en"><a href ="#contact" class="bk">CONTACT</a></li>
+               <li class="it"><a href ="#works" class="bk">CONTATTI</a></li>
+
              </ul>
          </nav>
        </div>
@@ -61,10 +67,10 @@
 
     <div id=lang>
 
-      <div class="dropdown"><!--dropdown menu-->
-        <button class="grad" id="btsp"><p class="spt">ENG</p></button>
+      <div class="dropdown" id="switching-language"><!--dropdown menu-->
+        <button class="grad" id="btsp"><p class="spt" onclick="setLanguage('en')">ENG</p></button>
         <div class="dropdown-content">
-          <a href="#a2020"><p class="spt">ITA</p></a>
+          <a href="" id="btsp2"><p class="spt" onclick="setLanguage('it')">ITA</p></a>
        </div>
      </div><!--end of dropdown-->
 
@@ -117,7 +123,7 @@
     <div class=content-wrapper id="intro">
 
       <div class="int">
-        <h2 id="downhere"><span>straightforward</span><br> code</h2>
+        <h2 id="downhere" style="padding-top: 80px;"><span>straightforward</span><br> code</h2>
 
         <span class="dot1"></span>
 
@@ -229,7 +235,7 @@
       </div>
 
      <div class="container">
-       <form action="action_page.php">
+       <form action="/action_page.php">
 
          <label for="name">NAME</label>
          <input type="text"class="grad" id="name" name="name" placeholder="Your name">

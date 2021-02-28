@@ -25,4 +25,20 @@ function showSlides(n, no) {
   x[slideIndex[no]-1].style.display = "block";
 }
 
-//**********sticky nav and logo***************//
+//**********changing language***************//
+//if switching-language = "eng" --> html lang= "en"; else if switching-language = "ita" --> html lang="it"//
+function switchLanguage(eng, ita){
+  var switchingLang = ["eng", "ita"];
+  var eng=document.getElementsById(dtsp);
+  var ita=document.getElementsById(dtsp2);
+
+  if (switchingLang === eng){
+    setLanguage("en");
+  } else if (switchingLang === ita){
+    setLanguage("it");
+  }
+
+  return languageSwitched;
+}
+
+switchLanguage();

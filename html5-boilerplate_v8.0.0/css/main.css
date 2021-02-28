@@ -155,6 +155,7 @@ textarea {
      list-style-type: none;
      margin: 0;
      padding: 0;
+     padding-right: 10px;
      text-transform: uppercase;
    }
 
@@ -189,6 +190,11 @@ textarea {
    p {
      margin:0;
    }
+
+
+   /*----LANGUAGES----*/
+   .en, .it { display:none; } /* hide all elements with a language class */
+   .en:lang(en), .it:lang(it) { display:block; } /* show those elements that match their language class */
 
    /*------header, main and footer-------*/
    header,
@@ -295,6 +301,9 @@ header figure {
      padding: 5px;
    }
 
+   #switching-language{
+     
+   }
 
    /*-----------------------MOBILE---------------------*/
    /*---------------HOMEPAGE---------------*/
