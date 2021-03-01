@@ -27,18 +27,9 @@ function showSlides(n, no) {
 
 //**********changing language***************//
 //if switching-language = "eng" --> html lang= "en"; else if switching-language = "ita" --> html lang="it"//
-function switchLanguage(eng, ita){
-  var switchingLang = ["eng", "ita"];
-  var eng=document.getElementsById(dtsp);
-  var ita=document.getElementsById(dtsp2);
+$('[lang="it"]').hide();
 
-  if (switchingLang === eng){
-    setLanguage("en");
-  } else if (switchingLang === ita){
-    setLanguage("it");
-  }
-
-  return languageSwitched;
-}
-
-switchLanguage();
+$('#switch-lang').click(function() {
+  $('[lang="it"]').toggle();
+  $('[lang="en"]').toggle();
+});

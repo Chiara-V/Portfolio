@@ -301,9 +301,17 @@ header figure {
      padding: 5px;
    }
 
-   #switching-language{
-     
+/* Change the background color of the button when the content is shown */
+   .lng:hover {
+     background: linear-gradient(130deg, rgba(217, 13, 203, 0.5), rgba(5, 199, 242, 0.5));
    }
+
+   .lng{
+     border: none;
+     align-self: flex-end;
+     padding: 5px;
+   }
+
 
    /*-----------------------MOBILE---------------------*/
    /*---------------HOMEPAGE---------------*/
@@ -413,9 +421,7 @@ span.hv{
 #sp2{
   padding-right: 20px;
 }
-  #downhere{
 
-  }
 /*----BUTTON ARROW DOWN---*/
   #wrp{
     display: flex;
