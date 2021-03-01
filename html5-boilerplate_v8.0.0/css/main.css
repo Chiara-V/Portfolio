@@ -191,11 +191,6 @@ textarea {
      margin:0;
    }
 
-
-   /*----LANGUAGES----*/
-   .en, .it { display:none; } /* hide all elements with a language class */
-   .en:lang(en), .it:lang(it) { display:block; } /* show those elements that match their language class */
-
    /*------header, main and footer-------*/
    header,
    main,
@@ -277,7 +272,7 @@ header figure {
 }
 
    /*language button*/
-   #lang{
+   #lingua{
      display: flex;
      justify-content: flex-end;
      align-items: center;
