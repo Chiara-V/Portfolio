@@ -51,32 +51,21 @@
       <div class="half-width">
          <nav>
              <ul>
-               <li data-mlr-text><a href ="#works" class="bk">WORKS</a></li>
+               <li lang="en"><a href ="#works" class="bk">WORKS</a></li>
 
                <span class="dot"></span>
 
-               <li data-mlr-text><a href ="#about" class="bk">ABOUT</a></li>
+               <li lang="en"><a href ="#about" class="bk">ABOUT</a></li>
 
                <span class="dot"></span>
 
-               <li data-mlr-text><a href ="#contact" class="bk">CONTACT</a></li>
+               <li lang="en"><a href ="#contact" class="bk">CONTACT</a></li>
 
              </ul>
          </nav>
        </div>
 
     </div>
-
-    <div id=lingua>
-
-      <select  class="dropbtn dropdown grad"id="lang-switch"></select><!--dropdown menu-->
-        <button onclick="changeLanguage('eng')" class="grad lng" value="en">ENG</button>
-        <button onclick="changeLanguage('it')" class="grad lng" value="it">ITA</button>
-
-
-     </div><!--end of dropdown-->
-
-   </div><!--end of lang-->
 
 
     <div class=content-wrapper id="wrapper">
@@ -237,7 +226,7 @@
       </div>
 
      <div class="container">
-       <form action="/action_page.php">
+       <form method="post" action="form.php">
 
          <label for="name">NAME</label>
          <input type="text"class="grad" id="name" name="name" placeholder="Your name">

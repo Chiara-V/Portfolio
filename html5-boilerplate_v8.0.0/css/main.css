@@ -272,15 +272,20 @@ header figure {
 }
 
    /*language button*/
-   #lingua{
+   /*#lingua{
      display: flex;
      justify-content: flex-end;
      align-items: center;
      flex-flow: row wrap;
      width: 90%;
      box-sizing: border-box;
-     margin-top: 70px;
+     margin-top: 100px;
+   }*/
+
+   .sp1{
+     font-size: 2rem;
    }
+
 
    #hw{
      margin-top: 70px;
@@ -340,7 +345,7 @@ header figure {
      justify-content: flex-start;
      align-items: center;
      width: 100%;
-     padding-top: 120px;
+     padding-top: 180px;
    }
 
    span#title1.normal{
