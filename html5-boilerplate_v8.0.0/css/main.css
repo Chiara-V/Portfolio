@@ -575,7 +575,12 @@ span.hv{
 
   /* Works icons*/
   .slider i {
-	   font-size: 2rem;
+	   font-size: 1.5rem;
+     padding-top: 20px;
+   }
+
+   .margin{
+     margin-top: 0;
    }
 
    /*Works links to other pages*/
@@ -732,7 +737,11 @@ span.hv{
   }
 
   #email2{
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+  }
+
+  #send-email{
+    margin-bottom: 30px;
   }
 
   #social{
