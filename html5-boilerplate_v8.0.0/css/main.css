@@ -509,6 +509,10 @@ span.hv{
   }
 
 /*------SERVICES SECTION---*/
+  #downhere{
+    padding-top: 80px;
+  }
+
   #services{
     display: flex;
     justify-content: center;
@@ -1091,17 +1095,130 @@ width: 100%;
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+   /*************TABLET*************/
+   @media only screen and (min-width: 768px) {
+     h1{
+       font-size:  8.375rem;
+     }
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+     .no-br br{
+       display: none;
+     }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
+     #logo{
+       width: 40%;
+     }
+
+     #wrapper{
+       justify-content: flex-start;
+     }
+
+     #wrapper1{
+       width: 50%;
+     }
+
+     h1#left.normal{
+       display: flex;
+       justify-content: flex-start;
+     }
+
+     #box1{
+       justify-content: flex-start;
+     }
+
+     #wrapper2{
+       justify-content: flex-start;
+       padding-bottom: 0;
+       width: 55%;
+     }
+
+     #title3{
+       align-self: flex-start;
+       padding-left: 80px;
+     }
+
+     #pdes{
+       padding-left: 45px;
+     }
+
+     #wrp{
+       visibility: hidden;
+     }
+
+/**main**/
+     #downhere{
+       padding-top: 0;
+       margin-top: 0;
+     }
+
+     #int-wrapper{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-flow: row wrap;
+       width: 100%;
+     }
+
+     #intro{
+       justify-content: flex-end;
+       margin-right: 10px;
+       width: 40%;
+       order: 2;
+     }
+
+    #before{
+      order: 1;
+      width: 50%;
+    }
+
+    #img{
+      width: 100%;
+    }
+
+    .sld{
+      width: 50%;
+    }
+
+/*about*/
+  .text{
+    width: 45%;
+    margin-left: 0px;
+  }
+
+  #mia-foto{
+    width: 50%;
+  }
+
+  #about-img{
+    width: 100%;
+  }
+
+/*email*/
+  #email2, #dove-trovarmi{
+    width: 100%;
+  }
+
+  .fa-linkedin{
+    padding-left:
+  }
+
+  .fa-github-square{
+    padding-right:
+  }
+
+  #tch{
+    order: 2;
+    width: 50%;
+  }
+
+  #other-contact{
+    order: 1;
+    width: 50%;
+  }
+
+   }
+
+
 
 /* ==========================================================================
    Print styles.

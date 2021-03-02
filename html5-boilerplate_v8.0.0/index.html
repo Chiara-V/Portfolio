@@ -91,7 +91,7 @@
         </div>
 
         <div id=box1>
-          <h1 class="normal"><span id=title3>VUI</span></h1>
+          <h1 class="normal" id="left"><span id=title3>VUI</span></h1>
           <h1 class="hovered"><span class="hv" id="sp2">Vuillermoz</span></h1>
           <!--CSS: #title:hover .head2 {display:none}
           #title:hover:before {content:"Vuillermoz"}-->
@@ -111,10 +111,11 @@
 
   <main>
 
+    <div id="int-wrapper">
     <div class=content-wrapper id="intro">
 
       <div class="int">
-        <h2 id="downhere" style="padding-top: 80px;"><span>straightforward</span><br> code</h2>
+        <h2 id="downhere"><span>straightforward</span><br> code</h2>
 
         <span class="dot1"></span>
 
@@ -131,18 +132,22 @@
         <h2><span>original</span><br> illustrations</h2>
       </div>
 
-      <figure>
+      </div><!--content wrapper ends-->
+
+      <figure id="before">
         <div id=img>
           <img src="img/cat.png" alt="cat image"/>
         </div>
       </figure>
 
-    </div><!--content wrapper ends-->
+    </div><!--end of int-wrapper-->
+
+
 
     <!--WORKS SECTION***********************-->
     <div id=works>
       <div id="sr">
-          <h1 id="serv">Wo<br>rks</h1>
+          <h1 id="serv" class="no-br">Wo<br>rks</h1>
       </div>
       <!--/*-SLIDESHOW-*-->
       <div class="slider">
@@ -187,7 +192,7 @@
    <!--ABOUT SECTION**********-->
    <div id=about>
      <div class=third-width>
-       <h1 class="title3 pdd" id="pdr">Ab<br>out</h1>
+       <h1 class="title3 pdd no-br" id="pdr">Ab<br>out</h1>
      </div>
 
      <div class="text">
@@ -200,16 +205,11 @@
        I am available for collaborations everywhere.</p>
      </div>
 
-     <figure>
+     <figure id="mia-foto">
        <div class=content-wrapper id=about-img>
          <img src="img/about-picture.png" alt="about picture"/>
        </div>
      </figure>
-
-     <div class="text1">
-       <h2><span class="int">My work</span></h2>
-       <p class="text1" id="pr">here text about my way of working and services</p>
-     </div>
 
    </div><!--END OF ABOUT SECTION***********************-->
 
@@ -221,7 +221,7 @@
    <!--CONTACT SECTION**********-->
    <div id=contact>
      <div id="cnc">
-       <h1 class="title1 pdd" id="tit">Con<br>tact</h1>
+       <h1 class="title1 pdd no-br" id="tit">Con<br>tact</h1>
      </div>
 
      <div id=content>
@@ -233,7 +233,7 @@
          <div id="oc">
            <p id=email2>Email me at:<br></p>
            <button class="grad sm-btn" id="send-email"><a href = "mailto: chiara.vuillermoz@libero.it">chiara.vuillermoz@libero.it</a></button>
-           <p>you can also find me here:</p>
+           <p id="dove-trovarmi">you can also find me here:</p>
          </div>
 
          <div id=social>
