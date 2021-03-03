@@ -746,16 +746,28 @@ span.hv{
   }
 
   #dove-trovarmi{
+    text-align: center;
+    padding-bottom: 10px;
     width: 100%;
+  }
+
+  #icone{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 80%;
   }
 
   #send-email{
     margin-bottom: 30px;
   }
 
+  #send-email.grad.sm-btn:hover {background: linear-gradient(130deg, rgba(217, 13, 203, 0.5), rgba(5, 199, 242, 0.5));}
+
   #social{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     width: 100%;
@@ -1002,10 +1014,6 @@ width: 100%;
     width: 85%;
   }
 
-  #nmg{
-    margin-bottom: 0;
-  }
-
 /*didascalia*/
   .didascalia{
     margin-top: 15px;
@@ -1015,6 +1023,7 @@ width: 100%;
 
   /*Sit Conmigo*/
   #nmg {
+    margin-bottom: 0;
     width: 100%;
     text-align: center;
   }
@@ -1239,13 +1248,18 @@ width: 100%;
        width: 30%;
     }
 
+    #logo{
+      max-width: 20%;
+    }
+
     #slide-1, #slide-2, #slide-3{
       width: 30%;
     }
 
     #slide-3{
       margin-top: 5px;
-      min-height: 310px;
+      min-height: 290px;
+      max-height: 310px;
     }
 
     .text{
@@ -1262,19 +1276,19 @@ width: 100%;
     }
 
     #other-contact{
+      order: 2;
       display: flex;
       justify-content: space-around;
       width: 100%;
     }
 
-    #oc{
-      order: 2;
+    #oc, #social{
       width: 30%;
     }
 
-    #social{
-      order: 3;
-      width: 30%;
+    span#bigsize{
+      font-size: 5rem;
+      line-height: 5rem;
     }
 
 }
