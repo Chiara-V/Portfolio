@@ -224,7 +224,7 @@ header figure {
    #logo{
      align-self: flex-start;
      padding: 5px 0 0 10px;
-     width: 100%;
+     max-width: 50%;
    }
 
    .half-width {
@@ -742,6 +742,11 @@ span.hv{
 
   #email2{
     padding-bottom: 10px;
+    width: 100%;
+  }
+
+  #dove-trovarmi{
+    width: 100%;
   }
 
   #send-email{
@@ -1008,6 +1013,12 @@ width: 100%;
     text-align: center;
   }
 
+  /*Sit Conmigo*/
+  #nmg {
+    width: 100%;
+    text-align: center;
+  }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -1101,6 +1112,15 @@ width: 100%;
        font-size:  8.375rem;
      }
 
+     #serv{
+       padding-bottom: 80px;
+     }
+
+     #pdr, #tit{
+       padding-top: 130px;
+       padding-bottom: 40px;
+     }
+
      .no-br br{
        display: none;
      }
@@ -1109,40 +1129,32 @@ width: 100%;
        width: 40%;
      }
 
-     #wrapper{
-       justify-content: flex-start;
-     }
+/*chi vui*/
+  header{
+    justify-content: flex-start;
+  }
 
-     #wrapper1{
+    #wrapper{
+       justify-content: flex-start;
        width: 50%;
      }
 
-     h1#left.normal{
-       display: flex;
+     #wrapper1, #wrapper2{
        justify-content: flex-start;
-     }
-
-     #box1{
-       justify-content: flex-start;
+       width: 100%;
      }
 
      #wrapper2{
-       justify-content: flex-start;
-       padding-bottom: 0;
-       width: 55%;
-     }
-
-     #title3{
-       align-self: flex-start;
-       padding-left: 80px;
-     }
-
-     #pdes{
-       padding-left: 45px;
+       margin-left: 40px;
+       padding: 0;
      }
 
      #wrp{
        visibility: hidden;
+     }
+
+     #title3{
+       margin-left: 30px;
      }
 
 /**main**/
@@ -1175,8 +1187,22 @@ width: 100%;
       width: 100%;
     }
 
+/*works*/
+    #slide-1, #slide-2{
+      max-height: 310px;
+      width: 45%;
+    }
+
+    #slide-2{
+    }
+
     .sld{
       width: 50%;
+    }
+
+    #slide-3{
+      margin-top: 20px;
+      width: 40%;
     }
 
 /*about*/
@@ -1194,18 +1220,6 @@ width: 100%;
   }
 
 /*email*/
-  #email2, #dove-trovarmi{
-    width: 100%;
-  }
-
-  .fa-linkedin{
-    padding-left:
-  }
-
-  .fa-github-square{
-    padding-right:
-  }
-
   #tch{
     order: 2;
     width: 50%;
@@ -1217,6 +1231,53 @@ width: 100%;
   }
 
    }
+
+   /***************DESKTOP***********/
+   @media only screen and (min-width: 1200px) {
+
+     #wrapper {
+       width: 30%;
+    }
+
+    #slide-1, #slide-2, #slide-3{
+      width: 30%;
+    }
+
+    #slide-3{
+      margin-top: 5px;
+      min-height: 310px;
+    }
+
+    .text{
+      width: 60%;
+    }
+
+    #mia-foto{
+      width: 30%;
+    }
+
+    #tch{
+      order: 1;
+      width: 30%;
+    }
+
+    #other-contact{
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+    }
+
+    #oc{
+      order: 2;
+      width: 30%;
+    }
+
+    #social{
+      order: 3;
+      width: 30%;
+    }
+
+}
 
 
 
