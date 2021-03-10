@@ -1028,6 +1028,20 @@ width: 100%;
     text-align: center;
   }
 
+  /*****DEVELOPMENT*******/
+#agg{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  width: 90%;
+}
+
+  #aggiunto{
+    font-size: 16px;
+    width: 100%;
+  }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -1238,6 +1252,11 @@ width: 100%;
     order: 1;
     width: 50%;
   }
+
+/*development*/
+#aggiunto{
+  margin-left: 20px;
+}
 
    }
 
