@@ -1,7 +1,7 @@
 
 //************SLIDESHOWS**************//
 
-var slideIndex = [1,1,1,1, 1];
+var slideIndex = [1,1,1,1,1];
 var slideId = ["slide", "slideb", "slidec", "slided", "slidef"]
 showSlides(1, 0);
 showSlides(1, 1);
