@@ -608,6 +608,7 @@ span.hv{
   }
 
   #about-img{
+    margin-top: 20px;
     width: 95%;
   }
 
@@ -1236,13 +1237,20 @@ width: 100%;
     }
 
 /*about*/
+#about{
+  justify-content: flex-start;
+}
+
   .text{
-    width: 45%;
-    margin-left: 0px;
+    width: 55%;
+    margin-left: 30px;
+    margin-right: 10px;
   }
 
   #mia-foto{
-    width: 50%;
+    margin-top:0px;
+    margin-left: 40px;
+    width: 30%;
   }
 
   #about-img{
@@ -1311,9 +1319,7 @@ width: 100%;
     }
 
 /*about*/
-  #about{
-    justify-content: flex-start;
-  }
+
 
     .text{
       margin-left: 30px;
@@ -1328,10 +1334,6 @@ width: 100%;
     #allargo{
       font-size: 2em;
       line-height: 50px;
-    }
-
-    #mia-foto{
-      width: 30%;
     }
 
     #tch{
